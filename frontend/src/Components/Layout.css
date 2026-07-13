@@ -1,0 +1,79 @@
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  min-height: 100vh;
+  background: #212529;
+  color: white;
+  padding: 20px;
+}
+
+/* Sidebar Title */
+.sidebar h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Navigation */
+.nav-link {
+  color: #ffffff !important;
+  font-size: 16px;
+  padding: 12px 15px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.nav-link:hover {
+  background-color: #0d6efd;
+  color: #ffffff !important;
+  transform: translateX(5px);
+}
+
+/* Active Link */
+.nav-link.active {
+  background-color: #0d6efd;
+  color: #ffffff !important;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+/* Logout Button */
+.btn-danger {
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* Cards */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Tables */
+.table {
+  background: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table thead {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/* Body */
+body {
+  margin: 0;
+  background-color: #f8f9fa;
+  font-family: Arial, Helvetica, sans-serif;
+}
